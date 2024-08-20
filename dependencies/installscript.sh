@@ -15,6 +15,9 @@ sudo dnf install zsh
 sudo lchsh $USER
 # type then "/bin/zsh"
 
+###keychain for managing ssh keys
+sudo dnf install keychain
+
 #ohmyzsh
 # https://www.sitepoint.com/zsh-tips-tricks/#1installohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
